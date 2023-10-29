@@ -107,6 +107,59 @@ nav {
     font-size: 1.2rem;
     margin-top: 10px;
 }
+body {
+    
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('images/home.jpg'); /* Replace 'background-image.jpg' with your image file's path */
+    background-size: cover; /* Adjust how the image covers the background */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Keep the image fixed within the viewport */
+    background-position: center center; /* Center the image horizontally and vertically */
+    color: #fff; /* Set text color to contrast with the background */
+    font-family: Arial, sans-serif; /* Specify font for text */
+    text-align: center; /* Center-align text on the page */
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 3px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #e50914;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.forgot-password {
+    text-align: left;
+    font-size: 12px;
+    color: #999;
+}
 
 /* Add more styling for the featured movies/TV shows section */
 
